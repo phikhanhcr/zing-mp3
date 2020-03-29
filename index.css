@@ -1,0 +1,280 @@
+body {
+  background-color: black;
+  color : white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.drop .icon-drop .drop-down {
+  display: none;
+  width: 248px;
+  height: 197px;
+  flex-direction: column;
+  background-color: #2e2e2e;
+  color: white;
+  justify-content: space-evenly;
+}
+.drop .icon-drop i:hover .drop-down{
+  display: flex;
+}
+.root { 
+  width: 1056px;
+  height: 124px
+}
+.header {
+  color : white;
+  background-color: black;
+  display: flex;
+  height: 72px;
+  justify-content: space-around;
+  align-items: center;
+}
+.account {
+  display: flex;
+  width: 248px;
+  justify-content: center;
+  align-items: center;
+}
+.avatar img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.avatar .infor {
+  flex-grow: 1;
+}
+.infor .normal-user {
+  font-size: 12px;
+  opacity: 60%;
+  margin-top: 3px;
+}
+.infor {
+  margin-right: 40px;
+}
+.header .logo img {
+  padding-top: 13px;
+}
+.header .form input{
+  width: 498px;
+  height: 35px;
+}
+
+/* menu */
+.menu {
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a:first-child{
+  padding-left: 0px;
+}
+.menu ul li a {
+  padding: 10px 25px;
+  text-decoration: none;
+  color: white;
+}
+.menu ul li a:hover {
+  color : purple
+}
+.vip {
+  text-align: center;
+  border : 1px solid white;
+  background-color: #feb200;
+  border-radius: 15px;
+  font-weight: 900;
+}
+/* which music do you listen today ?  */
+.today-listen .title {
+  height: 46px;
+}
+.today-listen {
+  height: 297px;
+  width: 1026px;
+}
+.today-listen .play {
+  height: 221px;
+  width: 190px;
+  background-image: url("./images/music_1.png");
+  background-size: cover;
+  background-position: center;
+}
+.today-listen .title {
+  font-size: 30px;
+  font-weight: 750;
+}
+.today-listen {
+  margin-top: 15px;
+}
+.today-listen .title {
+  margin-bottom: 8px;
+}
+.play .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+}
+.overlay img {
+  height: 120px;
+  width: 120px;
+  transform: scale(0.5);
+  transition: all 0.3s;
+}
+.anh:hover .overlay {
+  opacity: 1;
+  color : purple
+}
+.anh:hover .overlay img {
+  transform: scale(0.6);
+}
+.music {
+  display: flex;
+}
+.music .anh:first-child {
+  padding-left: 0;
+}
+.music .anh {
+  padding: 0 13px;
+}
+.music .anh .describe:hover {
+  color : purple
+}
+
+.music .anh .describe { 
+  padding-top: 6px;
+}
+.anh .author {
+  font-size: 11px;
+  opacity: 50%;
+}
+/* xep hang */
+.diagram {
+  height: 400px;
+  margin-top: 70px;
+  display: flex;
+}
+.diagram .chart {
+  background-image: url("./images/playlist/diagram.png");
+  background-size: cover;
+  background-position: center;
+  width: 667px;
+  height: 400px;
+}
+.diagram .rank {
+  height: 399px;
+  width: 389px;
+  background-color: #21173b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-song {
+  display: flex;
+  height: 65px;
+  width: 339px;
+  justify-content: center;
+  align-items: center;
+  background-color: #21173b;
+}
+.rank .song {
+  display: flex;
+  background-color: #21173b;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  width: 319px;
+}
+.rank .song img {
+  height: 50px;
+}
+.song .serial {
+  padding: 0 8px 0 6px;
+  color : red;
+}
+.song .infor {
+  flex-grow: 1;
+  padding-left: 5px;
+}
+.song .infor .name{
+  font-size: 14px;
+}
+.song .infor .author {
+  font-size: 11px;
+  opacity: 60%;
+}
+.song .percentage {
+  padding-right: 5px;
+  color : red;
+}
+.list-mix {
+  height: 210px;
+  width: 1026px;
+}
+.list-mix .first {
+  height: 210px;
+  width: 1056px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+.list-mix .first .wrapper-picture {
+  height: 170px;
+  width: 170px;
+}
+.list-mix .first .play  {
+  background-image: url('./images/mix/1.png');
+  background-size: cover;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+}
+.list-mix .alan {
+  background-color: #1c1c1c;
+  height: 170px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 15px;
+}
+.list-mix .alan div:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+.list-mix .alan p {
+  padding-top: 12px;
+  font-size: 14px;
+  opacity: 70%;
+}
+.list-mix .alan div:last-child {
+  font-size: 12px;
+}
+.list-of-author {
+  font-size: 14px;
+  height: 170px;
+  width: 616px;
+  display: flex;
+  background-color: #1c1c1c;
+  justify-content: space-around;
+}
+.list-of-author div div{
+  color :white;
+  margin-top: 10px;
+}
+.list-of-author div div a {
+  color : white
+}
+.list-of-author a:hover {
+  color : purple;
+}
