@@ -1,0 +1,169 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/05ef113fe5.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a8b4be;
+  }
+  .root {
+    position: relative;
+    height: 582px;
+    width: 772px;
+    background-color: #fff;
+    margin: 50px;
+  }
+  .account {
+    width: 699px;
+    height: 107px;
+    border: 1px solid #deedfe;
+  }
+  .header {
+    padding-left: 40px;
+    height: 79px;
+    width: 772px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  .header .title {
+    color: black;
+    opacity: 60%;
+    font-size: 24px;
+    font-weight: 550;
+  }
+  .header .icon {
+    padding-right: 116px;
+  }
+  .second {
+    height: 167px;
+    width: 772px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  .second .balance {
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .second .balance .money {
+    padding-right: 76px;
+  }
+  .final {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .final .total {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 107px;
+    width: 657px;
+  }
+  .final .total .hi {
+    color : black;
+    font-weight: bold;
+    opacity: 70%;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .final .total .qoute {
+    font-size: 18px;
+  }
+  .final .total .money {
+    font-size: 34px;
+    color : black;
+    opacity: 70%;
+    font-weight: bold;
+  }
+  .btn {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 700px;
+    height: 56px;
+  }
+  .btn a {
+    text-decoration: none;
+    font-size: 20px;
+    height: 56px;
+    width: 700px;
+    color : white;
+    background-color: #208fd8;
+    padding: 20px 250px;
+  }
+  .total-second{
+    border: 1px solid blue;
+    height: 104px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 657px;
+    margin-left: 40px;
+  }
+  .total-second .result {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .total-second .result .author {
+    color : black;
+  }
+  .total-money {
+    font-size: 25px;
+    color: #3498dc;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+</style>
+
+<body>
+  <div class="root">
+    <div class="header">
+      <div class="title">Order Summary</div>
+      <div class="icon"><i class="fas fa-question"></i></div>
+    </div>
+    <div class="second">
+      <div class="balance">
+        <div class="infor">Balance amount</div>
+        <div class="money">100.00 $</div>
+      </div>
+      <div class="balance">
+        <div class="infor">VAT (21%):</div>
+        <div class="money">21.00 $</div>
+      </div>
+    </div>
+    <div class="final">
+      <div class="total">
+        <div class="name">
+          <div class="hi">Total</div>
+          <div class="qoute">(Incl .VAT)</div>
+        </div>
+        <div class='money'>100.00 $</div>
+      </div>
+      <div class="total-second" style="background-color: #edf7ff;">
+        <div class="result">
+          <div class="acc">Account after top up</div>
+          <div class="author">Theresa Williamson</div>
+        </div>
+        <div class="total-money">100.00 $</div>
+      </div>
+      <div class="btn">
+        <div><a href="#">Confirm you order</a></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

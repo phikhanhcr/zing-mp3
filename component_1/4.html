@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/05ef113fe5.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color : white;
+    }
+
+    .root {
+      background-color: #2a3945;
+      height: 500px;
+      width: 500px;
+      margin: 50px;
+      border-radius: 35px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .search {
+      padding-top: 35px;
+    }
+    input {
+      font-size: 22px;
+      height: 60px;
+      padding-left: 15px;
+      border-radius: 15px;
+      width: 400px; 
+      color: #989fa3;
+      background-color:	#55616a;
+      border: none;
+    }
+    .wrap {
+      padding-top: 25px;
+      display: flex;
+      width: 400px;
+      height: 60px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    .button {
+      color : 	#00c57a;
+      border-radius: 25px;
+    }
+    .describe{
+      flex-grow: 1;
+      font-size: 22px;
+      padding-left: 20px;
+      position: absolute;
+      left: 110px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="root">
+    <div class="search">
+      <input type="text" placeholder="Type something to search...">
+    </div>
+    <div class="icon">
+      <div class="wrap">
+        <div class="button">
+          <i class="fas fa-plus-square fa-3x" style="color:#208fd8;"></i>
+        </div>
+        <div class="describe">Add icon</div>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="wrap">
+        <div class="button">
+          <i class="fas fa-comment-medical fa-3x"></i>
+        </div>
+        <div class="describe">Add comment</div>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="wrap">
+        <div class="button">
+          <i class="fas fa-bolt fa-3x" style="color: #ebc100;"></i>
+        </div>
+        <div class="describe">Add dependency</div>
+      </div>
+    </div>
+    <div class="icon">
+      <div class="wrap">
+        <div class="button">
+          <i class="fas fa-copy fa-3x" style="color:#784ec7"></i>
+        </div>
+        <div class="describe">Copy current block</div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

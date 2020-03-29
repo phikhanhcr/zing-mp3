@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/05ef113fe5.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #eee;
+    }
+    .root {
+      width: 500px;
+      height: 420px;
+      background-color: #fff;
+      margin: 50px;
+    }
+    .header {
+      height: 50px;
+      width: 500px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    .header .content {
+      padding-left: 25px;
+      font-size: 23px;
+      font-weight: 700;
+      opacity: 70%;
+    }
+    .header .method {
+      padding-right: 25px;
+    }
+    .payment {
+      height: 50px;
+      width: 500px;
+      display: flex;
+    }
+    .payment .visa {
+      margin-right  : 5px;
+      width: 70px;
+      height: 40px;
+      margin-left: 25px;
+    }
+    .card-holder {
+      margin: 15px 0px 25px 25px;
+    }
+    .card-holder .name {
+      margin-bottom: 10px;
+    }
+    .border {
+      border: 1px solid #c9e4fe;
+      font-size: 16px;
+      height: 40px;
+
+    }
+    .card-holder input {
+      width: 400px;
+      padding-left: 15px;
+    }
+    .card-number {
+      display: flex;
+      margin:0px 0px 25px 25px;
+      
+    }
+    .card-number .number input {
+      width: 200px;
+      padding-left: 10px;
+    }
+    .card-number .infor {
+      margin-bottom: 7px;
+    }
+    .card-number .time input {
+      width: 90px;
+      padding-left: 10px;
+    }
+    .card-number .time {
+      margin-right: 10px;
+    }
+    .card-number .number {
+      margin-right: 10px;
+    }
+    .footer {
+      margin: 20px 0px 0px 25px;
+      font-size: 15px;
+      height: 50px;
+      width: 500px;
+      display: flex;
+      align-items: center;
+    }
+    .footer .icon {
+      color : #72abde;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="root">
+    <div class="header">
+      <div class="content">Payment method</div>
+      <div class="method"><i class="fas fa-question"></i></div>
+    </div>
+    <div class="payment">
+      <div class="visa"><i class="fab fa-cc-visa fa-3x"></i></div>
+      <div class="visa"><i class="fab fa-cc-mastercard fa-3x"></i></div>
+    </div>
+    <div class="card-holder">
+      <div class="name">Cardholder name</div>
+      <div class="input">
+        <input type="text" class="border" placeholder="Diane Miles">
+      </div>
+    </div>
+    <div class="card-number">
+      <div class="number">
+        <div class="infor">Card number</div>
+        <div>
+          <input type="text" class="border" placeholder="1234 6573 8228 7373">
+        </div>
+      </div>
+      <div class='time'>
+        <div class="infor">Date</div>
+        <div>
+          <input type="text" class="border" placeholder="10/25">
+        </div>
+      </div>
+      <div class='time'>
+        <div class="infor">CCV</div>
+        <div>
+          <input type="text" class="border" placeholder="239">
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="icon"><i class="fas fa-exclamation-circle"></i></div>
+      <div class="describe">Credit Card payments may take up to 24h to processed</div>
+    </div>
+  </div>
+</body>
+</html>
