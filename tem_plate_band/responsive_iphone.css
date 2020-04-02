@@ -1,0 +1,335 @@
+@media ( max-width:667px ) {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  .root {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 48px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  .icon-drop-header:hover .drop-icon-header{
+    display: block  ;
+  }
+  .header menu {
+    width: 100%;
+  }
+  .header .menu ul {
+    width: 100%;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: sticky;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    
+  }
+  .header .menu ul li {
+    float: left;
+    height: 100%;
+    padding-top: 15px;
+  }
+  .header .menu ul li a {
+    text-decoration: none;
+    color : white;
+    font-size: 15px;
+    padding: 250px 5px;
+  }
+ 
+  .search {
+    display: none;
+  }
+  .header .menu ul li a:hover {
+    background-color: #DDD;
+    color : black;
+  }
+  /* .drop-icon:hover ul .drop{
+    padding-right: 15px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background-color: #ddd;
+    color : black;
+  } */
+  .search {
+    width: 20px;
+    color: white;
+    padding: 6px 25px;
+  }
+  .search:hover {
+    background-color: tomato;
+  }
+
+  .drop-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 100px;
+  }
+  .has-drop {
+    position: relative;
+    margin-left: 175px;
+    display: none;
+  }
+  /* .has-drop .drop {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    min-width: 90px;
+    margin: 0;
+    color: black;
+    background-color: #fff;
+    padding: 0;
+  }
+  
+  .has-drop .drop a {
+    font-size: 15px;
+    color: black;
+    background-color: #fff;
+  }
+  .has-drop:hover .drop{
+    display: block;
+    color: #000;
+  }
+   */
+/* Slide */
+
+  .slide img {
+    width : 100%;
+  }
+  .w3-display-bottommiddle {
+    display: none;
+  }
+  .third {
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    text-align: justify;
+    line-height: 23px;
+    padding: 64px 16px ;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fonth1 {
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  .content i {
+    margin-bottom: 5px;
+    opacity: 80%;
+  }
+  
+  .profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .khung .have-img1 {
+    width: 150px;
+    height: 150px;
+    
+    margin-bottom: 15px;
+  }
+  .khung .have-img img {
+    width: auto;
+    height: 150px;
+  }
+  .fouth {
+    background-color:black;
+    color : white;
+    display: flex;
+    justify-content: center;
+  }
+  .fouth .buy-ticket {
+    height: 133px;
+    width: 100%;
+    background-color: white;
+    color: #000;
+    margin-top: 40px;
+  }
+  .line-hight {
+    line-height: 11px;
+  }
+  .fouth .buy-ticket .month {
+    display: flex;
+    height: 38px;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fouth .buy-ticket .month{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid brown;
+  }
+  .fouth .buy-ticket .month .soldout {
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+  }
+  .fouth .buy-ticket .month .have {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 25px;
+  }
+  .place {
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+  .place .city {
+    display: flex;
+    flex-direction: column;  
+    width: 90%;
+    margin-bottom: 25px;
+  }
+  .size-img-city {
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  .city .golden {
+    background-image: url('/images/golden.jpg');
+  }
+  .city .new-york {
+    background-image: url('/images/newyork.jfif');
+  }
+  .city .paris {
+    background-image: url('/images/paris.jpg');
+  }
+  .size-img-city .overlay {
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+  }
+  .size-img-city:hover .overlay {
+    opacity: 1;
+  }
+  .wrapper {
+    background-color: white;
+    color: #000;
+    height: 201px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .city .infor-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .date ,b ,.qoute , .buy {
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .qoute {
+    line-height: 20px;
+  }
+  .buy {
+    padding: 20px 25px;
+    background-color: black;
+    color : white;
+    width: 35%;
+  }
+  .fifth {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 165px;
+  }
+  .fifth .contact {
+    width: 768px;
+    height: 327px;
+    padding: 64px 16px;
+    text-align: center;
+  }
+  .fifth .contact .position {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .diachi {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .diachi i {
+    margin-right: 8px;
+  }
+  .setdouble-input {
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    padding : 8px;
+  }
+  .reponsive-iphone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .single-input {
+    margin-top: 15px;
+    width: 250px;
+    height: 40px;
+    padding : 8px;
+  }
+  .leave-infor {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 20px;
+  }
+  .leave-infor .send {
+    margin-top: 25px;
+    position: absolute;
+    right : 0;
+  }
+  .leave-infor .send a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color : white;
+    background-color: black;
+    margin-top: 15px;
+  }
+  .sixth img {
+    padding-top: 50px;
+    width: 100%;
+  }
+  .final { 
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .final .icon a{
+    margin-left: 8px;
+  }
+  .final p {
+    font-weight: bold;
+    opacity: 60%;
+  }
+  
+}

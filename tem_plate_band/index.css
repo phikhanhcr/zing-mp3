@@ -1,0 +1,314 @@
+@media (min-width : 1324px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+  }
+  .root {
+    width: 100%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 48px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .icon-drop-header {
+    display: none;
+  }
+  .header .menu ul {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: sticky;
+    list-style: none;
+  }
+  .header .menu ul li {
+    float: left;
+  }
+  .drop-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .header .menu ul li a {
+    color : white;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+  }
+  .header .menu ul li a:hover {
+    background-color: #DDD;
+    color : black;
+  }
+  /* .drop-icon:hover ul .drop{
+    padding-right: 15px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background-color: #ddd;
+    color : black;
+  } */
+  .search {
+    width: 10px;
+    color: white;
+    padding: 6px 25px;
+  }
+  .search i {
+    width: 10px;
+    height: 5px;
+  }
+  .search:hover {
+    background-color: tomato;
+  }
+  .has-drop {
+    display: inline-block;
+    position: relative;
+  }
+  .has-drop .drop {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    min-width: 160px;
+    margin: 0;
+    color: black;
+    background-color: #fff;
+    padding: 0;
+  }
+  
+  .has-drop .drop a {
+    color: black;
+    background-color: #fff;
+  }
+  .has-drop:hover .drop{
+    display: block;
+    color: #000;
+  }
+  .slide img {
+    width : 100%;
+  }
+  .w3-display-bottommiddle{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    -ms-transform:translate(-50%,0%);
+    font-size: 20px;
+  }
+  .third {
+    display: flex;
+    justify-content: center;
+  }
+  .content {
+    text-align: justify;
+    line-height: 23px;
+    padding: 64px 16px ;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fonth1 {
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  
+  .content i {
+    margin-bottom: 5px;
+    opacity: 80%;
+  }
+  
+  .profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .khung .have-img1 {
+    width: 150px;
+    height: 150px;
+    
+    margin-bottom: 15px;
+  }
+  .khung .have-img img {
+    width: auto;
+    height: 150px;
+  }
+  .fouth {
+    background-color:black;
+    color : white;
+    display: flex;
+    justify-content: center;
+  }
+  .fouth .buy-ticket {
+    height: 133px;
+    width: 100%;
+    background-color: white;
+    color: #000;
+    margin-top: 40px;
+  }
+  .line-hight {
+    line-height: 11px;
+  }
+  .fouth .buy-ticket .month {
+    display: flex;
+    height: 38px;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fouth .buy-ticket .month{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid brown;
+  }
+  .fouth .buy-ticket .month .soldout {
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+  }
+  .fouth .buy-ticket .month .have {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-right: 25px;
+  }
+  .place {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .size-img-city {
+    height: 184px;
+    width: 245px;
+    background-position: center;
+    background-size: cover;
+  }
+  .city .golden {
+    background-image: url('/images/golden.jpg');
+  }
+  .city .new-york {
+    background-image: url('/images/newyork.jfif');
+  }
+  .city .paris {
+    background-image: url('/images/paris.jpg');
+  }
+  .size-img-city .overlay {
+    height: 184px;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+  }
+  .size-img-city:hover .overlay {
+    opacity: 1;
+  }
+  .wrapper {
+    background-color: white;
+    color: #000;
+    height: 201px;
+    width: 245px;
+    display: flex;
+    justify-content: center;
+  }
+  .city .infor-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .date ,b ,.qoute , .buy {
+    margin-left: 14px;
+    margin-right: 15px;
+  }
+  .qoute {
+    line-height: 20px;
+  }
+  .buy {
+    padding: 20px 25px;
+    background-color: black;
+    color : white;
+    width: 35%;
+  }
+  .fifth {
+    display: flex;
+    justify-content: center;
+  }
+  .fifth .contact {
+    width: 768px;
+    height: 327px;
+    padding: 64px 16px;
+    text-align: center;
+  }
+  .fifth .contact .position {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .diachi {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .diachi i {
+    margin-right: 8px;
+  }
+  .setdouble-input {
+    width: 184px;
+    height: 40px;
+    padding : 8px;
+  }
+  .setdouble-input:first-child {
+    margin-right: 10px;
+  }
+  .single-input {
+    margin-top: 15px;
+    width: 384px;
+    height: 40px;
+    padding : 8px;
+  }
+  .leave-infor {
+    position: relative;
+    margin-top: 17px;
+    margin-left: 50px;
+  }
+  .leave-infor .send {
+    margin-top: 25px;
+    position: absolute;
+    right : 0;
+  }
+  .leave-infor .send a {
+    text-decoration: none;
+    padding: 12px 16px;
+    color : white;
+    background-color: black;
+    margin-top: 15px;
+  }
+  .sixth img {
+    padding-top: 50px;
+    width: 100%;
+  }
+  .final { 
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .final .icon a{
+    margin-left: 8px;
+  }
+  .final p {
+    font-weight: bold;
+    opacity: 60%;
+  }
+  
+}
