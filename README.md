@@ -1,4 +1,4 @@
-# PROJECT :
+# PROJECT 
 
 ## Template Band
 *A template from W3SCHOOL* 
