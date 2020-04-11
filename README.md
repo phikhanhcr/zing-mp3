@@ -6,10 +6,9 @@
 [Link Demo](https://zingmp3-697d9.firebaseapp.com/?fbclid=IwAR2IqQfJlkdbd8EuR6nfYmOGpbFwadSi1XLZVIOm4Lcm2wmDfCE6pg1-uoo)
 **It is good response to many devices**
 
-> But there is something wrong when I deploy to Firebase , some component and element is wrong position , I think
-> because of default css file of FIREBASE(of course , I tested in my localhost) , but that's small mistake ,
-> you can still see my project is quite complete
-
+> But there is something wrong when I deploy to Firebase, some component and element is the wrong position,
+> I think because of default CSS file of FIREBASE(of course, I tested in my localhost),
+> but that's a small mistake, you can still see my ? project is quite complete
 
 ## Zingmp3 
 *This is not a complete product*
